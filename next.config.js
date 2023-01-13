@@ -4,7 +4,10 @@ const nextConfig = {
     appDir: true,
   },
   images: {
-    domains: ['scontent.fisb5-2.fna.fbcdn.net'],
+    domains: [
+      'scontent.fisb5-2.fna.fbcdn.net',
+      'icon-library.com'
+    ],
   },
 }
 
