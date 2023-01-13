@@ -5,7 +5,7 @@ const nextConfig = {
   },
   images: {
     domains: [
-      'scontent.fisb5-2.fna.fbcdn.net',
+      'pbs.twimg.com',
       'icon-library.com'
     ],
   },
