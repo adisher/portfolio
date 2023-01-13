@@ -1,7 +1,7 @@
 import Image from 'next/image'
-// import { get } from '@vercel/edge-config';
+import { get } from '@vercel/edge-config';
 import { redirect } from 'next/navigation';
-import data from '../data.json'
+// import data from '../data.json'
 
 export const dynamic = 'force-dynamic',
   runtime = 'edge';
@@ -108,8 +108,8 @@ interface Social {
   title: string;
 }
 
-export default function Home() {
-  // const data: Data | undefined = await get('linktree');
+export default async function Home() {
+  const data: Data | undefined = await get('portfolio');
 
   if (!data) {
     // not working yet https://github.com/vercel/next.js/issues/44232
