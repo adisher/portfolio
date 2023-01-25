@@ -167,6 +167,9 @@ export default async function Home() {
             </a>
           ))}
         </div>
+        <div className="flex items-center text-white my-5">
+          <p>Built with ❤️ in Next.js</p>
+        </div>
       </div>
     </>
   )
